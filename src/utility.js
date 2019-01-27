@@ -5,6 +5,7 @@ export const createAlertsWithName = (alerts,applicants) =>{
       ...a,
       name:(a.applicants
         .map(id =>getApplicantByid(id,applicants))
+        .filter(x=>x)
         .find(applicant => applicant.isPrimaryApplicant) ||{lastName:''}).lastName
     }))
   }
