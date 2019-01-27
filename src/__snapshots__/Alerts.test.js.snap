@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alerts should render pagination 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Alerts
+    people={
+      Object {
+        "alerts": Array [
+          Object {
+            "applicants": Array [
+              "000001297",
+            ],
+            "assignedDateTime": "2018-10-25T09:25:00Z",
+            "createdDateTime": "2018-10-24T09:25:00Z",
+            "dueDateTime": "2018-10-25T09:25:00Z",
+            "id": "19d0da63-dfd0-4c00-a13a-cc822fc81297",
+            "submissionId": "SUB200620150004197",
+          },
+          Object {
+            "applicants": Array [
+              "000001201",
+            ],
+            "assignedDateTime": "2018-10-25T09:25:00Z",
+            "createdDateTime": "2018-10-24T09:25:00Z",
+            "dueDateTime": "2018-10-25T09:25:00Z",
+            "id": "19d0da63-dfd0-4c00-a13a-cc822fc81201",
+            "submissionId": "SUB200620150004201",
+          },
+          Object {
+            "applicants": Array [
+              "000001202",
+            ],
+            "assignedDateTime": "2018-10-25T09:25:00Z",
+            "createdDateTime": "2018-10-24T09:25:00Z",
+            "dueDateTime": "2018-10-25T09:25:00Z",
+            "id": "19d0da63-dfd0-4c00-a13a-cc822fc81202",
+            "submissionId": "SUB200620150004202",
+          },
+          Object {
+            "applicants": Array [
+              "000001202",
+            ],
+            "assignedDateTime": "2018-10-25T09:25:00Z",
+            "createdDateTime": "2018-10-24T09:25:00Z",
+            "dueDateTime": "2018-10-25T09:25:00Z",
+            "id": "19d0da63-dfd0-4c00-a13a-cc822fc81203",
+            "submissionId": "SUB200620150004203",
+          },
+          Object {
+            "applicants": Array [
+              "000001204",
+              "000001202",
+            ],
+            "assignedDateTime": "2018-10-25T09:25:00Z",
+            "createdDateTime": "2018-10-24T09:25:00Z",
+            "dueDateTime": "2018-10-25T09:25:00Z",
+            "id": "19d0da63-dfd0-4c00-a13a-cc822fc81204",
+            "submissionId": "SUB200620150004204",
+          },
+          Object {
+            "applicants": Array [
+              "000001297",
+            ],
+            "assignedDateTime": "2018-10-25T09:25:00Z",
+            "createdDateTime": "2018-10-24T09:25:00Z",
+            "dueDateTime": "2018-10-25T09:25:00Z",
+            "id": "19d0da63-dfd0-4c00-a13a-cc822fc81205",
+            "submissionId": "SUB200620150004205",
+          },
+        ],
+        "applicants": Array [
+          Object {
+            "applicantSerialNumber": 1,
+            "firstName": "Ron",
+            "id": "000001297",
+            "idScheme": "CustomerInternalId",
+            "isPrimaryApplicant": true,
+            "lastName": "Sharma",
+          },
+          Object {
+            "applicantSerialNumber": 2,
+            "firstName": "JAMESON",
+            "id": "000001204",
+            "idScheme": "CustomerInternalId",
+            "isPrimaryApplicant": false,
+            "lastName": "Last",
+          },
+          Object {
+            "applicantSerialNumber": 3,
+            "firstName": "Jack",
+            "id": "000001202",
+            "idScheme": "CustomerInternalId",
+            "isPrimaryApplicant": false,
+            "lastName": "Pagoda",
+          },
+          Object {
+            "applicantSerialNumber": 3,
+            "firstName": "Margot",
+            "id": "000001201",
+            "idScheme": "CustomerInternalId",
+            "isPrimaryApplicant": false,
+            "lastName": "Pagoda",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

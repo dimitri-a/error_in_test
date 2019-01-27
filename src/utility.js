@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
 export const createAlertsWithName = (alerts,applicants) =>{
+  //console.log('applicants',applicants)
+  //console.log('alerts',alerts)
     return alerts.map(a =>({
       ...a,
       name:(a.applicants
