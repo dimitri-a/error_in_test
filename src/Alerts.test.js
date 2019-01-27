@@ -13,7 +13,6 @@ describe('Alerts', () => {
 
 
   it('should render pagination', () => {
-
     const wrapper = shallow(<AlertsComp people={peopleMock} />)
     expect(wrapper).toMatchSnapshot();
   });
@@ -21,9 +20,7 @@ describe('Alerts', () => {
 });
 
 
-
 const peopleMock = {
-
   "alerts": [
     {
       "submissionId": "SUB200620150004197",    
